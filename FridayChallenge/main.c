@@ -16,22 +16,8 @@
 #include <stdio.h>
 
 
+
+
 int main() {
-    int choose;
-    printf("                                            --------------------------------\n");
-    printf("                                            |    Von Mischa Ismael Joao    |\n");
-    printf("                                            |                              |\n");
-    printf("                                            |    Game 1                    |\n");
-    printf("                                            |    Game 2                    |\n");
-    printf("                                            |    Game 3                    |\n");
-    printf("                                            |    Random Game 4             |\n");
-    printf("                                            |                              |\n");
-    printf("                                            --------------------------------\n");
-               
-    printf("                                            Choose a game: ");
-    scanf("%d", &choose);
-    if (choose >4 || choose < 1) {
-        printf("                                            NUMBER BETWEEN 1 AND 4: ");
-        scanf("%d", &choose);
-    }
+    printf("HELLOWORLD");
 }
