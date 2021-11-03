@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Utils.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +13,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>DurchschnittsRechner.c</itemPath>
+      <itemPath>EinheitenUmrechner.c</itemPath>
+      <itemPath>NotenRechner.c</itemPath>
+      <itemPath>ThreeGames.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,6 +41,16 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="DurchschnittsRechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EinheitenUmrechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NotenRechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ThreeGames.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -59,6 +74,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="DurchschnittsRechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="EinheitenUmrechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NotenRechner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ThreeGames.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>

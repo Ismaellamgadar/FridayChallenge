@@ -35,6 +35,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/DurchschnittsRechner.o \
+	${OBJECTDIR}/EinheitenUmrechner.o \
+	${OBJECTDIR}/NotenRechner.o \
+	${OBJECTDIR}/ThreeGames.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +65,26 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fridaychallenge.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fridaychallenge ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/DurchschnittsRechner.o: DurchschnittsRechner.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DurchschnittsRechner.o DurchschnittsRechner.c
+
+${OBJECTDIR}/EinheitenUmrechner.o: EinheitenUmrechner.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/EinheitenUmrechner.o EinheitenUmrechner.c
+
+${OBJECTDIR}/NotenRechner.o: NotenRechner.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NotenRechner.o NotenRechner.c
+
+${OBJECTDIR}/ThreeGames.o: ThreeGames.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ThreeGames.o ThreeGames.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
