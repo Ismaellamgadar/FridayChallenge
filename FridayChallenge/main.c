@@ -11,14 +11,27 @@
  * Created on 3. November 2021, 08:40
  */
 
-#include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-/*
- * 
- */
-int main(int argc, char** argv) {
 
-    return (EXIT_SUCCESS);
+int main() {
+    int choose;
+    printf("                                            --------------------------------\n");
+    printf("                                            |    Von Mischa Ismael Joao    |\n");
+    printf("                                            |                              |\n");
+    printf("                                            |    Game 1                    |\n");
+    printf("                                            |    Game 2                    |\n");
+    printf("                                            |    Game 3                    |\n");
+    printf("                                            |    Random Game 4             |\n");
+    printf("                                            |                              |\n");
+    printf("                                            --------------------------------\n");
+               
+    printf("                                            Choose a game: ");
+    scanf("%d", &choose);
+    if (choose >4 || choose < 1) {
+        printf("                                            NUMBER BETWEEN 1 AND 4: ");
+        scanf("%d", &choose);
+    }
 }
-
